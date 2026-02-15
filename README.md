@@ -1,5 +1,5 @@
 # landing-page-practice
-Refreshing flexbox knowledge
+Refreshing and practicing flexbox knowledge
 
-Feel free to view:
+View at:
 https://sampedrojpb.github.io/landing-page-project-2/
