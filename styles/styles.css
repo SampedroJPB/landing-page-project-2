@@ -6,7 +6,7 @@ body {
     margin: 0;
 }
 
-/* Header Section flexbox */
+/* Header Section */
 .header-container {
     background-color: #1F2937;
     display: flex;
@@ -17,24 +17,24 @@ body {
 
 .header-left {
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
     font-size: 24px;
-    color: #F9FAF8;
     font-weight: 800;
+    color: #F9FAF8;
     gap: 8px;
 }
 
 .header-right ul {
+    display: flex;
+    flex-wrap: wrap;
     list-style: none;
     font-size: 18px;
     color: #E5E7EB;
     gap: 24px;
-    display: flex;
 }
-/* Header Section flexbox */
 
-/* Header Section design */
 .header-left img {
     border-radius: 50%;
     width: 32px;
@@ -45,23 +45,104 @@ a {
     text-decoration: none;
     color: white;
 }
-/* Header Section design */
+/* Header Section */
 
-/* Hero Section Flexbox */
+/* Hero Section */
 .hero-container {
     display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    padding: 0 20%;
-    flex: 1; /* Make sure to share spaces among all 3 containers */
+    flex: 1;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 5vh 20%;
+    gap: 52px;
 }
-/* Hero Section Flexbox */
 
-/* Hero Section Design */
+.hero-container > * { /* all children under hero-container shares flex 1 */
+    flex: 1;
+}
 
+.hero-container-left {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 8px;
+}
 
+.hero-container-right {
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+}
 
-/* Hero Section Design */
+.hero-container {
+    background-color: #1F2937;
+}
+
+.hero-container-title {
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: 900;
+}
+
+.hero-container-text,
+.hero-container-button-container {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.hero-sign-up-button {
+    background-color: #3882F6;
+    border-radius: 8px;
+    border: none;
+    padding: 8px 32px;
+    margin: 0;
+    font-weight: 600;
+}
+
+.hero-container-right img {
+    border-radius: 12px;
+    width: 100%;
+    height: auto;
+}
+/* Hero Section */
+
+/* Info Section */
+.info-container {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    align-items: center;
+    padding: 48px;
+}
+
+.info-title-container {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+    margin-bottom: 48px;
+}
+
+.info-row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 52px;
+}
+
+.info-image-text-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    max-width: 200px;
+}
+
+.info-image-text-container img {
+    border: 4px solid #3882F6;
+    border-radius: 12px;
+    width: 128px;
+    height: 128px;
+}
+/* Info Section */
 
 
 .footer-container {
