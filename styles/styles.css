@@ -169,7 +169,58 @@ a {
 }
 
 /* Quote Section */
+/* Call to action Section */
+.call-to-action-container {
+    display: flex;
+    flex: 1;
+    margin: 5% 15%;
+    padding: 50px;
+    background-color: #3882F6;
+    border-radius: 8px;
+    justify-content: center;
+    align-items: center;
+}
 
+.call-to-action-border {
+    display: flex;
+    flex: 1;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.call-to-action-container-left {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.call-to-action-container-title {
+    color: white;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.call-to-action-container-text {
+    color: hsl(0, 0%, 85%);
+    font-size: 16px;
+}
+
+.call-to-action-container-right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.call-to-action-sign-up-button {
+    background-color: #3882F6;
+    border: 2px solid white;
+    border-radius: 8px;
+    padding: 8px 32px;
+    margin: 0;
+    font-weight: 600;
+}
+/* Call to action Section */
 .footer-container {
     background-color: #1F2937;
     color: white;
