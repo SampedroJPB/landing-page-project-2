@@ -2,4 +2,4 @@
 Refreshing and practicing flexbox knowledge
 
 View at:
-https://sampedrojpb.github.io/landing-page-project-2/
+https://sampedrojpb.github.io/re-landing-page-project/
